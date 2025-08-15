@@ -50,7 +50,7 @@ nav a {
 }
 
 nav a:hover {
-    color: #7e685b;
+    color: #e1a07b;
 }
 
 .hero {
@@ -73,8 +73,9 @@ nav a:hover {
 
 .cta-button {
     display: inline-block;
+    text-shadow: 2px 2px 4px #000000;
     padding: 10px 20px;
-    background-color: #4c3c32;
+    background-color: #7b4242;
     color: white;
     text-decoration: none;
     border-radius: 5px;
