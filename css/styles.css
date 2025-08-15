@@ -21,7 +21,9 @@ h1 {
 }
 
 p {
-    text-shadow: 2px 2px #000000; 
+    text-shadow: 2px 2px 4px #000000;
+    background-color: #db95a6; 
+    padding: 5px;
 }
 
 nav {
