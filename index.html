@@ -4,13 +4,13 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="css/styles.css">
-    <title>CozyCup Café</title>
+    <title>Maide Café</title>
 </head>
 <body>
     <header>
         <nav>
             <div class="logo">
-                <img src="logo.png" alt="CozyCup Café Logo">
+                <img src="logo.png" alt="Maide Café Logo">
             </div>
             <ul>
                 <li><a href="#home">Home</a></li>
@@ -22,15 +22,20 @@
     </header>
 
     <section id="home" class="hero">
-        <h1>Welcome to CozyCup Café</h1>
+        <h1>Welcome to Maide Café</h1>
         <p>Discover Your Perfect Brew</p>
         <a href="#menu" class="cta-button">Explore Menu</a>
     </section>
 
-    <section id="menu" class="menu">
-        <h2>Our Menu</h2>
-        <!-- Add menu items here -->
-    </section>
+<div class="carousel">
+    <div class="slides">
+        <div class="slide"><img src="image1.jpg" alt="Dish 1"></div>
+        <div class="slide"><img src="image2.jpg" alt="Dish 2"></div>
+        <div class="slide"><img src="image3.jpg" alt="Dish 3"></div>
+    </div>
+    <button class="prev" data-slide="prev">⬅ Prev</button>
+    <button class="next" data-slide="next">Next ➡</button>
+</div>
 
     <section id="about" class="about">
         <h2>About Us</h2>
@@ -39,11 +44,32 @@
 
     <section id="contact" class="contact">
         <h2>Contact Us</h2>
-        <p>Have questions or feedback? Reach out to us...</p>
+        <p>Have questions or feedback?</p>
+        <p>Email Us at: <a href="mailto:murillomarlonjr@gmail.com">murillomarlonjr@gmail.com</a></p>
     </section>
 
     <footer>
         <p>&copy; 2023 CozyCup Café. All rights reserved.</p>
     </footer>
+<script>
+const slides = document.querySelector('.slides');
+const slideCount = document.querySelectorAll('.slide').length;
+let currentIndex = 0;
+
+function showSlide(index) {
+    slides.style.transform = `translateX(-${index * 100}%)`;
+}
+
+document.querySelectorAll('[data-slide]').forEach(button => {
+    button.addEventListener('click', () => {
+        if (button.dataset.slide === 'next') {
+            currentIndex = (currentIndex + 1) % slideCount;
+        } else {
+            currentIndex = (currentIndex - 1 + slideCount) % slideCount;
+        }
+        showSlide(currentIndex);
+    });
+});
+</script>
 </body>
 </html>
