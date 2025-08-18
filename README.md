@@ -10,6 +10,6 @@ A Maide café management web app for tracking menu items, orders, and customer p
 - 📊 Sales dashboard with analytics 
 - 🌐 User-friendly web interface  
 
-## Creator:
-- Marlon V. Murillo Jr
-- Grace Ann P. Cornel
+## Contributor:
+- Marlon V. Murillo Jr  - Creator
+- Grace Ann P. Cornel - Collaborator
