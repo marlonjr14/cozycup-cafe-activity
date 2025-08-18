@@ -11,5 +11,5 @@ A cozy café management web app for tracking menu items, orders, and customer pr
 - 🌐 User-friendly web interface  
 
 # Creator:
-Marlon V. Murillo Jr
-Grace Ann P. Cornel
+-Marlon V. Murillo Jr
+-Grace Ann P. Cornel
