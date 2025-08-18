@@ -1,6 +1,6 @@
-# CozyCup Café ☕  
+# MAaide Café ☕  
 
-A cozy café management web app for tracking menu items, orders, and customer preferences.  
+A Maide café management web app for tracking menu items, orders, and customer preferences.  
 
 ---
 
@@ -10,6 +10,6 @@ A cozy café management web app for tracking menu items, orders, and customer pr
 - 📊 Sales dashboard with analytics 
 - 🌐 User-friendly web interface  
 
-# Creator:
--Marlon V. Murillo Jr
--Grace Ann P. Cornel
+## Creator:
+- Marlon V. Murillo Jr
+- Grace Ann P. Cornel
